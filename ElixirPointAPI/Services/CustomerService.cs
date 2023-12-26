@@ -2,7 +2,16 @@
 
 namespace ElixirPointAPI.Services;
 
-class CustomerService
+interface ICustomerService
+{
+    void Create(Customer? customer);
+    void Delete(int id);
+    List<Customer> GetAll();
+    Customer? GetById(int id);
+    void Update(Customer customer);
+}
+
+class CustomerService : ICustomerService
 {
     private readonly Dictionary<int, Customer> _customers = new();
 
