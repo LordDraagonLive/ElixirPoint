@@ -4,23 +4,24 @@ namespace ElixirPointAPI.Services;
 
 interface ICustomerService
 {
-    void Create(Customer? customer);
-    void Delete(int id);
+    Task Create(Customer? customer);
+    Task Delete(int id);
     List<Customer> GetAll();
     Customer? GetById(int id);
-    void Update(Customer customer);
+    Task Update(Customer customer);
 }
 
 class CustomerService : ICustomerService
 {
     private readonly Dictionary<int, Customer> _customers = new();
 
-    public void Create(Customer? customer)
+    public async Task Create(Customer? customer)
     {
         if (customer is null)
         {
             return;
         }
+        await Task.Delay(100);
 
         _customers[customer.Id] = customer;
     }
@@ -35,7 +36,7 @@ class CustomerService : ICustomerService
         return _customers.Values.ToList();
     }
 
-    public void Update(Customer customer)
+    public async Task Update(Customer customer)
     {
         var existingCustomer = GetById(customer.Id);
 
@@ -47,7 +48,7 @@ class CustomerService : ICustomerService
         _customers[customer.Id] = customer;
     }
 
-    public void Delete(int id)
+    public async Task Delete(int id)
     {
         _customers.Remove(id);
     }
