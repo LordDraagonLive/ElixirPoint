@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElixirPointAPI", "ElixirPointAPI\ElixirPointAPI.csproj", "{80A968D0-FA0B-4D02-AFC1-C1A94353B755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElixirPoint.API", "ElixirPointAPI\ElixirPoint.API.csproj", "{80A968D0-FA0B-4D02-AFC1-C1A94353B755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirPointAPI.Tests", "ElixirPointAPI.Tests\ElixirPointAPI.Tests.csproj", "{1761FB79-7D4F-489F-B5B3-C8DF8F612311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElixirPoint.API.Tests", "ElixirPointAPI.Tests\ElixirPoint.API.Tests.csproj", "{1761FB79-7D4F-489F-B5B3-C8DF8F612311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace ElixirPointAPI.Tests;
+namespace ElixirPoint.API.Tests;
 
 public class CustomerTests : IClassFixture<WebApplicationFactory<ApiTestEntryPoint>>
 {

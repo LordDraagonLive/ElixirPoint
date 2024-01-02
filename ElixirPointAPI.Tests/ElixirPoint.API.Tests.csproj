@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ElixirPointAPI\ElixirPointAPI.csproj" />
+    <ProjectReference Include="..\ElixirPointAPI\ElixirPoint.API.csproj" />
   </ItemGroup>
 
 </Project>

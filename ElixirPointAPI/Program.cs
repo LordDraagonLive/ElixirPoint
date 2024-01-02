@@ -1,5 +1,6 @@
-using ElixirPointAPI.Endpoints;
-using ElixirPointAPI.Services;
+using ElixirPoint.API.Endpoints;
+using ElixirPoint.API.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

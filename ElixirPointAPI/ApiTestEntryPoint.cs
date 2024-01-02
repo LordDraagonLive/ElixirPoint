@@ -1,4 +1,4 @@
-﻿namespace ElixirPointAPI;
+﻿namespace ElixirPoint.API;
 
 
 //using the minimal API model with top-level statements and

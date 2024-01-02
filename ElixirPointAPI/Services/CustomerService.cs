@@ -1,6 +1,6 @@
-﻿using ElixirPointAPI.Models;
+﻿using ElixirPoint.API.Models;
 
-namespace ElixirPointAPI.Services;
+namespace ElixirPoint.API.Services;
 
 interface ICustomerService
 {

@@ -1,4 +1,4 @@
-﻿namespace ElixirPointAPI.Endpoints;
+﻿namespace ElixirPoint.API.Endpoints;
 
 internal static class EndpointRegister
 {

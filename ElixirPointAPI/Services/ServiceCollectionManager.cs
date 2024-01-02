@@ -1,4 +1,4 @@
-﻿namespace ElixirPointAPI.Services;
+﻿namespace ElixirPoint.API.Services;
 
 internal static class ServiceCollectionManager
 {

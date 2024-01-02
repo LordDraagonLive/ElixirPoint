@@ -1,4 +1,4 @@
-namespace ElixirPointAPI.Tests;
+namespace ElixirPoint.API.Tests;
 
 public class UnitTest1
 {

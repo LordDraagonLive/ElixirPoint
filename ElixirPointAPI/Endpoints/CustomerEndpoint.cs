@@ -1,6 +1,7 @@
-﻿using ElixirPointAPI.Models;
-using ElixirPointAPI.Services;
-namespace ElixirPointAPI.Endpoints;
+﻿using ElixirPoint.API.Models;
+using ElixirPoint.API.Services;
+
+namespace ElixirPoint.API.Endpoints;
 internal static class CustomerEndpoint
 {
     internal static void MapCustomerEndpoints(this IEndpointRouteBuilder routes)
